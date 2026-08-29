@@ -1,0 +1,27 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.5
+python-multipart==0.0.20
+sse-starlette==2.2.1
+
+# Agent orchestration
+langgraph==0.2.62
+langchain-core==0.3.29
+
+# LLM providers (free tier)
+google-genai==1.2.0
+groq==0.15.0
+
+# Web search (free, no API key)
+ddgs==9.0.0
+
+# PDF ingestion
+pypdf==5.1.0
+
+# Local embeddings/similarity for the lit-review RAG path (no paid vector DB)
+numpy==2.2.1
+
+# Retry/backoff for flaky free-tier calls
+tenacity==9.0.0
+
+python-dotenv==1.0.1

@@ -1,0 +1,8 @@
+back 
+cd c:\Users\Vignesh\Downloads\researchpilot\researchpilot\backend
+.\venv\Scripts\activate
+uvicorn app.main:app --reload --port 8000
+
+front 
+cd c:\Users\Vignesh\Downloads\researchpilot\researchpilot\frontend
+npm run dev
